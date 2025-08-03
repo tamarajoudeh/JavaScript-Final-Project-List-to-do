@@ -1,0 +1,42 @@
+body {
+    font-family: Arial;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+h2 {
+    color: rgb(48, 48, 183);
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 200px;
+}
+
+button {
+    padding: 6px;
+    margin-left: 4px;
+    background-color: lightblue;
+    border: none;
+}
+
+ul {
+    margin-top: 20px;
+    padding-left: 0;
+}
+
+li {
+    list-style-type: none;
+    padding: 8px;
+    background-color: rgb(232, 232, 232);
+    border: 1px solid #f8dbdb;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li span {
+    flex: 1;
+    margin-left: 10px;
+}
